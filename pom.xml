@@ -44,4 +44,9 @@
         <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/testrelease/plugin-testrelease</url>
     </scm>
 
+    <scm>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/testrelease</url>
+    </scm>
 </project>
