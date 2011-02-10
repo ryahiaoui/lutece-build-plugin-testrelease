@@ -1,0 +1,29 @@
+<div class="form-element">
+	
+	 <span class="form-label">
+		<label for="${entry.idEntry}">	
+			${entry.title}
+			<#if entry.mandatory>
+				*
+			</#if>
+			 : 
+		</label>
+	    </span>
+	    <span class="form-field-column">	 
+			<#list entry.fields as field>
+				<#if field.value?exists>
+					<textarea class="-lutece-input -lutece-border-radius-mini" name="${entry.idEntry}" id="${entry.idEntry}"  cols="${field.width}" rows="${field.height}">${field.value}</textarea>
+				<#else>
+				   	<textarea class="-lutece-input -lutece-border-radius-mini" name="${entry.idEntry}" id="${entry.idEntry}" cols="${field.width}" rows="${field.height}" ></textarea>
+				</#if>
+			 </#list>
+		</span>
+		 <#if entry.helpMessage?exists&&entry.helpMessage!=''>
+			<span class="form-help">
+				<a class="info" href="javascript:void;"><img  src="images/admin/skin/plugins/form/help.gif" />
+					<span id="info-details" class="hide"><pre> ${entry.helpMessage}</pre></span>
+				</a>
+			</span>
+		</#if>	
+		
+</div>
