@@ -10,7 +10,7 @@
 	<groupId>fr.paris.lutece.plugins</groupId>
 	<artifactId>plugin-testrelease</artifactId>
 	<packaging>lutece-plugin</packaging>
-	<version>1.5.65</version>
+	<version>1.5.66-SNAPSHOT</version>
 	<name>Lutece testrelease plugin</name>
 	
 	<repositories>
@@ -37,10 +37,4 @@
     	<version>1.0.5</version>
 	</dependency> 
 </dependencies>
-
-  <scm>
-    <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-testrelease-1.5.65</connection>
-    <developerConnection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-testrelease-1.5.65</developerConnection>
-    <url>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-testrelease-1.5.65</url>
-  </scm>
 </project>
