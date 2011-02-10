@@ -35,6 +35,13 @@
     	<groupId>jfree</groupId>
     	<artifactId>jfreechart</artifactId>
     	<version>1.0.5</version>
-	</dependency> 
+	</dependency>
+
+    <scm>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/portal/trunk/plugins/testrelease/plugin-testrelease</url>
+    </scm>
+ 
 </dependencies>
 </project>
