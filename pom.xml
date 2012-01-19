@@ -10,7 +10,7 @@
 	<groupId>fr.paris.lutece.plugins</groupId>
 	<artifactId>plugin-testrelease</artifactId>
 	<packaging>lutece-plugin</packaging>
-	<version>1.6.6</version>
+	<version>1.6.7-SNAPSHOT</version>
 	<name>Lutece testrelease plugin</name>
 	
 	<repositories>
@@ -42,8 +42,8 @@
 		<jiraComponentId>10341</jiraComponentId>
 	</properties>
     <scm>
-        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-testrelease-1.6.6</connection>
-        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/tags/plugin-testrelease-1.6.6</developerConnection>
-        <url>http://dev.lutece.paris.fr/viewvc/lutece/portal/tags/plugin-testrelease-1.6.6</url>
+        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</url>
     </scm>
 </project>
