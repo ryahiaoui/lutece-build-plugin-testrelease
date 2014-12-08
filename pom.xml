@@ -37,13 +37,17 @@
     	<version>1.0.5</version>
 	</dependency>
 </dependencies>
+
+
 	<properties>
 		<jiraProjectName>TESTRELEASE</jiraProjectName>
 		<jiraComponentId>10341</jiraComponentId>
 	</properties>
+	
+	
     <scm>
-        <connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</connection>
-        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</developerConnection>
-        <url>http://dev.lutece.paris.fr/viewvc/lutece/portal/trunk/plugins/testrelease/plugin-testrelease</url>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-build-plugin-testrelease.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-build-plugin-testrelease.git</developerConnection>
+        <url>https://github.com/lutece-platform/lutece-build-plugin-testrelease.git</url>
     </scm>
 </project>
