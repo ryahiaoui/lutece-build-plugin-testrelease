@@ -25,20 +25,41 @@
     </repositories>
 
 	<dependencies>
-		<dependency>
+	  <dependency>
 	    <groupId>fr.paris.lutece</groupId>
 	    <artifactId>lutece-core</artifactId>
 	    <version>[2.3.1,)</version>
 	    <type>lutece-core</type>
 	  </dependency>
 	  <dependency>
-    	<groupId>jfree</groupId>
-    	<artifactId>jfreechart</artifactId>
-    	<version>1.0.5</version>
-	</dependency>
-</dependencies>
+    	    <groupId>jfree</groupId>
+    	    <artifactId>jfreechart</artifactId>
+    	    <version>1.0.5</version>
+	  </dependency>
+	</dependencies>
 
 
+	<build>
+	  <plugins>
+	    <plugin>
+	      <artifactId>maven-release-plugin</artifactId>
+	      <version>2.5.1</version>
+              <configuration>
+		<providerImplementations>
+		  <git>jgit</git>
+		</providerImplementations>
+	      </configuration>
+	      <dependencies>
+		<dependency>
+		  <groupId>org.apache.maven.scm</groupId>
+		  <artifactId>maven-scm-provider-jgit</artifactId>
+		  <version>1.9.2</version>
+		</dependency>
+	      </dependencies>
+	    </plugin>
+	  </plugins>
+	</build>
+	
 	<properties>
 		<jiraProjectName>TESTRELEASE</jiraProjectName>
 		<jiraComponentId>10341</jiraComponentId>
