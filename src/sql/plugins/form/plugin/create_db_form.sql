@@ -260,3 +260,4 @@ CREATE INDEX index_form_verify_by_field ON form_verify_by (id_field);
 
 ALTER TABLE form_verify_by ADD CONSTRAINT fk_form_verify_by_field FOREIGN KEY (id_field)
 	REFERENCES form_field (id_field);
+
