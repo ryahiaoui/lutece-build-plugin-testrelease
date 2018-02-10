@@ -10,7 +10,7 @@ node {
       if (isUnix()) {
          sh "'mvn' -Dmaven.test.failure.ignore clean package"
       } else {
-         bat(/"mvn" -Dmaven.test.failure.ignore clean package/)
+         bat(/"mvn" -Dmaven.test.failure.ignore clean deploy/)
       }
    }
    stage('Results') {
